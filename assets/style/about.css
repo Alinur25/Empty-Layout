@@ -1,0 +1,284 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 16px;
+    font-weight: 400;
+    color: #000;
+    background-color: #efefef;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+/* Header */
+header {
+    width: 100%;
+    height: 96px;
+    background: #FFFFFF;
+    box-shadow: 0px 8px 32px rgba(0, 0, 0, 0.03);
+    /* margin-bottom: 40px; */
+}
+
+.header-inner {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logos {
+    display: flex;
+    align-items: center;
+}
+
+.header-logos>a>img {
+    margin-right: 64px;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+
+.header-nav>a {
+    text-decoration: none;
+    color: #000;
+    margin-right: 32px;
+}
+
+.header-nav>button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 0;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background-color: #FFCC33;
+}
+
+.header-nav>button>img {
+    margin-right: 9px;
+}
+
+/* Main */
+.link {
+    height: 54px;
+    width: 100%;
+    border-bottom: 0.5px solid rgba(196, 196, 196, 0.6);
+    margin-bottom: 40px;
+}
+
+.link-inner {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.link-inner>div {
+    width: 95px;
+    height: 14px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-inner>div>span {
+    color: rgba(27, 20, 0, 0.4);
+    font-size: 12px;
+    font-weight: 500;
+    /* margin: 0 5px 0 10px;  */
+}
+
+.link-inner>div a {
+    text-decoration: none;
+    color: rgba(27, 20, 0, 0.4);
+    font-size: 12px;
+}
+
+/* Main */
+.main {
+
+}
+
+.main-block {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-block>div {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+.main-block>div>h2 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.main-block>div>h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.main-block>div>p {
+    opacity: 0.6;
+    font-size: 16px;
+}
+
+.yellow-block {
+    width: 100%;
+    height: 186px;
+    background: #FFCC33;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.yellow-block>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 290px;
+    height: 74px;
+}
+
+.yellow-block>div>h3 {
+    font-size: 40px;
+}
+
+.yellow-block>div>span {
+    font-size: 16px;
+    opacity: 0.6;
+}
+
+/* Questions */
+.questions {
+    width: 100%;
+    height: 738px;
+    background: #fff;
+}
+
+.quest-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.quest-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: -150px;
+}
+
+.quest-question {
+    position: absolute;
+    top: 230px;
+}
+
+.quest-inner>h2 {
+    font-size: 24px;
+    position: absolute;
+    top: 500px;
+}
+
+/* Footer */
+footer {
+    margin-top: 80px;
+    width: 100%;
+    height: 420px;
+    background: #fff;
+}
+
+.footer-inner {
+    padding-top: 48px;
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    border-bottom: 0.5px solid rgba(196, 196, 196, 0.6);
+    height: 260px;
+}
+
+.footer-1>div {
+    margin-top: 24px;
+    width: 150px;
+    height: 80px;
+}
+
+.footer-1>div>span {
+    font-size: 14px;
+}
+
+.footer-2 {
+    width: 510px;
+    height: 188px;
+}
+
+.footer-2>h2 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer-2>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-2>div>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-2>div>div>a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 12px;
+    opacity: 0.4;
+}
+
+.footer-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-3>h2 {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer-3>a {
+    text-decoration: none;
+    color: #000;
+    margin-top: 12px;
+    opacity: 0.4;
+}
+
+.footer-lower {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 112px;
+}
+
+.footer-lower>span {
+    opacity: 0.4;
+    font-size: 14px;
+}
